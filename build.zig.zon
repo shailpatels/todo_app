@@ -1,6 +1,6 @@
 .{
-    .name = .dvui_demo,
-    .fingerprint = 0x5157a5a9478a7694,
+    .name = .todo_app,
+    .fingerprint = 0x1d8067f600d7576c,
     .version = "0.0.1",
     .dependencies = .{
         .dvui = .{
