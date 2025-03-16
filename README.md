@@ -9,7 +9,8 @@ A simple todo app written in Zig and [dvui](https://github.com/david-vanderson/d
 Controls:
 ```
 o enable insert mode and add a new entry under the current item, or a new top level item if none selected
-i enabled edit mode and edit the text of the current selected item
+i enable edit mode and edit the text of the current selected item
 j,down navigate to the next item downwards
 k,up navigate to the next item upwards
+enter toggle an item done or not
 ```

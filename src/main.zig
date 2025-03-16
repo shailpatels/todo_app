@@ -25,9 +25,6 @@ var queue_focus_text_entry = false;
 
 pub fn main() !void {
     std.log.info("SDL version: {}", .{Backend.getSDLVersion()});
-
-    //    dvui.Examples.show_demo_window = show_demo;
-
     defer if (gpa_instance.deinit() != .ok) @panic("Memory leak on exit!");
 
     // init SDL backend (creates and owns OS window)
@@ -36,7 +33,7 @@ pub fn main() !void {
         .size = .{ .w = 450.0, .h = 600.0 },
         .min_size = .{ .w = 250.0, .h = 350.0 },
         .vsync = vsync,
-        .title = "DVUI SDL Standalone Example",
+        .title = "TODO",
         .icon = window_icon_png, // can also call setIconFromFileContent()
     });
     g_backend = backend;
